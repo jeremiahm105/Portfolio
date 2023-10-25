@@ -30,5 +30,7 @@
     Introvert: Reserved
     Minimalist: Simple
     Software Engineer: Developer
-18. chop down abut me section in portfolio
-19. remove yrs of experince in portfolio
+18. connect gmail
+19. remove yrs of experience in portfolio
+20. correct design in development blocks
+21. add additional block to experience for other skills
