@@ -8,10 +8,10 @@
 }
 
 html {
-    /*background: linear-gradient(300deg, #f1f1f6, #aaaaad, #ffffff);*/
-    /*background-size: contain;*/
-    /*!*animation: gradient-animation 3s ease infinite;*!*/
-    /*height: 100vh;*/
+    background: linear-gradient(300deg, #f1f1f6, #aaaaad, #ffffff);
+    background-size: contain;
+    /*animation: gradient-animation 3s ease infinite;*/
+    height: 100vh;
     color: #161B33;
 }
 

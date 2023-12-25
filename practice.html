@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Padauk:wght@400;700&family=Varela&display=swap');
+  body {
+    /*background: -webkit-linear-gradient(left, white, #b08eec);*/
+    background: linear-gradient(300deg, #c1c1c7,#b08eec , #e1c4ff);
+    background-size: 800% 800%;
+    animation: gradient-animation 4s ease infinite;
+    height: 100%;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+  }
+
+
+
+  .navbar-custom{
+    background-color: #b08eec;
+  }
+  .container.hero {
+    width: 800px;
+  }
+  .container.hero h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 77px;
+    font-weight: 400;
+    position: relative;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  input.btn , button.btn {
+    background-color: #58319d;
+    color: whitesmoke;
+  }
+  input.btn:hover, button.btn:hover{
+    background-color: #b08eec;
+    color: whitesmoke;
+    transition: 0.3s;
+  }
+
+  h1, h3 {
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px white;
+    z-index: 2;
+  }
+
+  .container.hero h1 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  p {
+    font-size: 24px;
+  }
+  .container.hero{
+
+  }
+  .container.hero p {
+    font-family: 'Padauk', sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+  .container {
+    min-width: 1100px;
+  }
+  button a {
+    color: whitesmoke;
+  }
+  .smaller-ad-register{
+    background-color: whitesmoke;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  p.about{
+    text-shadow: 2px 2px 5px black;
+  }
+</style>
+</head>
+<body>
+<div class="container flex-grow-1 d-flex flex-column justify-content-center hero">
+  <div class="row">
+    <div class="col d-flex flex-column align-items-center justify-content-start">
+      <h1>Meet Our Team</h1>
+
+
+      <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="media/FAV-1.jpg" class="rounded-4 d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Jeremiah Matthews</h1>
+            <p class="about">A Navy veteran proficient in full stack software development, equipped with degrees in both business and healthcare, who embodies a relentless dedication to lifelong learning. He channels his passion for technology towards creating innovative solutions aimed at aiding and empowering others.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="https://www.linkedin.com/in/jeremiah-m-105jm/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg></a>
+              <a href="https://github.com/jeremiahm"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="media/1698287249581.jpeg" class="rounded-4 d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kyle Sowers</h1>
+            <p class="about">A front-end web developer with a focus on UX/UI design and a passion for art. Expertise lies in crafting visually appealing and user-friendly interfaces, seamlessly integrating form and function. By combining technical proficiency with artistic sensibilities, I translate design concepts into responsive and interactive websites, always striving to push the boundaries of user interface innovation.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="https://www.linkedin.com/in/kyle-sowers-983625104/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg></a>
+              <a href="https://github.com/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
